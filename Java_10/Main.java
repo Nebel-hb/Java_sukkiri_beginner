@@ -5,7 +5,7 @@ public class Main{
     Matango m = new PoisonMatango('A');
     m.attack(h);
     PoisonMatango pm = new PoisonMatango('S');
-    // pm.attack(sh);
+    pm.attack(sh);
     h.run();
     sh.run();
   }
