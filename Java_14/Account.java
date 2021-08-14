@@ -11,7 +11,7 @@ public class Account{
     if (this == o){
       return true;
     }
-    if (o instancef Account){
+    if (o instanceof Account){
       Account a (Account)o;
       String an1 = this.accountNumber.trim();
       String an2 = a.accountNumber.trim();
