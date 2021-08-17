@@ -9,7 +9,7 @@ public class HelloServlet extends HttpServlet{
     printWriter w = res.getWriter();
     res.setContentType("text/html");
     w.write("<html><body>");
-    w.write("Today is "+ d.toString());
+    w.write("Today is " + d.toString());
     w.write("</body></html>");
   }
 }
