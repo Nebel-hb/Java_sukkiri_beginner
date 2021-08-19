@@ -8,7 +8,7 @@ public class Hero {
   }
   public void sit(int sec){
     this.hp += sec;
-    System.out.println(this.name + "は、" + sec + "秒座った！");
+    System.out.println(this.name + "は、" + sec + "秒座ったことで、");
     System.out.println("HPが" + sec + "ポイント回復した");
   }
   public void slip(){
@@ -18,7 +18,7 @@ public class Hero {
   }
   public void run(){
     System.out.println(this.name + "は、逃げ出した！");
-    System.out.println("GAMEOVER");
+    System.out.println("ゲームオーバー");
     System.out.println("最終HPは、" + this.hp + "でした。");
   }
 }
