@@ -9,6 +9,6 @@ public class Main{
     System.out.prinln("文字列「Java」は" + a + "文字です。");
   }
 
-  // public static int twice(int x){return x * 2;}
-  // public static int sub(int a, int b){return a - b;}
+  public static int twice(int x){return x * 2;}
+  public static int sub(int a, int b){return a - b;}
 }
