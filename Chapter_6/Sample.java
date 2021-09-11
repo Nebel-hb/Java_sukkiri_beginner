@@ -1,3 +1,9 @@
 public class Sample{
-  static int num = 0;
+  Sample(){
+    System.out.println("A");
+  }
+  {
+    System.out.println("B");
+  }
+  // static int num = 0;
 }
