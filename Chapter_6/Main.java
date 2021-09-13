@@ -1,8 +1,12 @@
 public class Main{
   public static void main(String[] args){
-
-    Sample s = new Sample();
-
+    Sample s = new Sample(10);
+    modify(s.num);
+    System.out.println(s.num);
+  }
+  private static void modify(int num){
+    num *= 2;
+  }
     // Sample.num = 10;
     // Sample s = new Sample();
     // Sample s2 = new Sample();
@@ -14,5 +18,5 @@ public class Main{
     // Item b = new Item();
     // b.setNum(20);
     // System.out.println(a.getNum());
-  }
+  // }
 }
