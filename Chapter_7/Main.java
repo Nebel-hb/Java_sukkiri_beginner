@@ -1,6 +1,9 @@
 public class Main{
   public static void main(String[] args){
-    A a = new B();
-    a.sample();
+    AbstractSample s = new ConcreteSample();
+    s.sample();
+
+    // A a = new B();
+    // a.sample();
   }
 }
