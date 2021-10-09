@@ -5,17 +5,17 @@ class Hero {
   public String getName(){return this.name;}
 }
 
-public class Main {
-  public static void main(String[] args) {  
-    Hero h1 = new Hero("鈴木");
-    Hero h2 = new Hero("佐藤");
-    Map<Hero, Integer> heros = new HashMap<>();
-    heros.put(h1, 7);
-    heros.put(h2, 3);
-    for (Hero h : heros.keySet()){
-      int value = heros.get(h);
-      System.out.println(h.getName() + value);
-    }
+// public class Main {
+//   public static void main(String[] args) {  
+//     Hero h1 = new Hero("鈴木");
+//     Hero h2 = new Hero("佐藤");
+//     Map<Hero, Integer> heros = new HashMap<>();
+//     heros.put(h1, 7);
+//     heros.put(h2, 3);
+//     for (Hero h : heros.keySet()){
+//       int value = heros.get(h);
+//       System.out.println(h.getName() + value);
+//     }
     
 
     // Map<String, Integer> prefs = new LinkedHashMap<>();
@@ -63,12 +63,12 @@ public class Main {
     // //   System.out.println(h.getName());
     // // }
 
-    // Map<Hero, Integer> heroes = new HashMap<Hero, Integer>();
-    // heroes.put(h1, 3);
-    // heroes.put(h2, 7);
-    // for (Hero key : heroes.keySet()){
-    //   int value = heroes.get(key);
-    //   System.out.println(key.getName() + "が倒した敵＝" + value);
-    // }
+    Map<Hero, Integer> heroes = new HashMap<Hero, Integer>();
+    heroes.put(h1, 3);
+    heroes.put(h2, 7);
+    for (Hero key : heroes.keySet()){
+      int value = heroes.get(key);
+      System.out.println(key.getName() + "が倒した敵＝" + value);
+    }
   }
 }
