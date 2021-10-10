@@ -54,14 +54,14 @@ class Hero {
     //   System.out.println(points.get(i));
     // }
 
-    // Hero h1 = new Hero("斉藤");
-    // Hero h2 = new Hero("鈴木");
-    // // List<Hero> heroes = new ArrayList<Hero>();
-    // // heroes.add(h1);
-    // // heroes.add(h2);
-    // // for (Hero h : heroes){
-    // //   System.out.println(h.getName());
-    // // }
+    Hero h1 = new Hero("斉藤");
+    Hero h2 = new Hero("鈴木");
+    List<Hero> heroes = new ArrayList<Hero>();
+    heroes.add(h1);
+    heroes.add(h2);
+    for (Hero h : heroes){
+      System.out.println(h.getName());
+    }
 
     Map<Hero, Integer> heroes = new HashMap<Hero, Integer>();
     heroes.put(h1, 3);
